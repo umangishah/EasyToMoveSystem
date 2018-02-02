@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="#">Easy To Move </a>
+			<a class="navbar-brand" href="./login.html">Easy To Move </a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 			</button>
@@ -28,26 +28,86 @@
 						<a class="nav-link" href="./Contact.html">Contact Us</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./Contact.html">FeedBack</a>
+						<a class="nav-link" href="./feedback.html">FeedBack</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 		<div class="container-fluid">
-				<div class="row">
-					<div class="col-sm-12">
-						<img src="images/home.jpg" class="img-fluid">
-					</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<img src="images/home.jpg" class="img-fluid">
 				</div>
-				<div class="row">
-					<div class="col-sm-12 col-md-8">
-						<h2>About Us</h2>
-						<p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at gravida nisl, vitae cursus urna. Phasellus dolor dolor, vestibulum quis diam nec, eleifend dignissim massa. Fusce venenatis erat eget viverra malesuada. Etiam maximus lorem nisi, pellentesque rhoncus magna sagittis tincidunt. Phasellus in iaculis libero, id porttitor nulla. Etiam fringilla, mi eu sagittis elementum, ante mauris pulvinar turpis, sit amet dignissim libero ipsum a lorem. Mauris varius semper erat eget mattis. Aenean ac lacinia enim, et rhoncus libero. Duis feugiat ultricies tincidunt.</p>
-						<p style="text-align: justify;">Fusce interdum accumsan purus a pretium. Fusce a eleifend enim. Aliquam sit amet mi eu odio imperdiet luctus a id sem. Sed non tempor ex. Quisque ut ante aliquet, laoreet tortor nec, suscipit eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut non quam suscipit, viverra enim fermentum, consequat nisi.</p>
-					</div>
-					<div class="col-sm-12 col-md-4">uhbfv
-					</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-8">
+					<h2>About Us</h2>
+					<p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at gravida nisl, vitae cursus urna. Phasellus dolor dolor, vestibulum quis diam nec, eleifend dignissim massa. Fusce venenatis erat eget viverra malesuada. Etiam maximus lorem nisi, pellentesque rhoncus magna sagittis tincidunt. Phasellus in iaculis libero, id porttitor nulla. Etiam fringilla, mi eu sagittis elementum, ante mauris pulvinar turpis, sit amet dignissim libero ipsum a lorem. Mauris varius semper erat eget mattis. Aenean ac lacinia enim, et rhoncus libero. Duis feugiat ultricies tincidunt.</p>
+					<p style="text-align: justify;">Fusce interdum accumsan purus a pretium. Fusce a eleifend enim. Aliquam sit amet mi eu odio imperdiet luctus a id sem. Sed non tempor ex. Quisque ut ante aliquet, laoreet tortor nec, suscipit eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut non quam suscipit, viverra enim fermentum, consequat nisi.</p>
 				</div>
+				<div class="col-sm-12 col-md-4">
+					<form id="needs-validation" novalidate>
+						<div class="form-row">
+							<div class="col-md-6 mb-6">
+								<label for="validationCustom01">First name</label>
+								<input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="" required>
+							</div>
+							<div class="col-md-6 mb-6 ">
+								<label for="validationCustom02">Last name</label>
+								<input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="" required>
+							</div>
+							<div class="col-md-12 mb-4">
+								<label for="validationCustomUsername">Username</label>
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text" id="inputGroupPrepend">@</span>
+									</div>
+									<input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
+									<div class="invalid-feedback">
+										Please choose a username.
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 mb-4">
+								<label for="validationCustom03">City</label>
+								<input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+								<div class="invalid-feedback">
+									Please provide a valid city.
+								</div>
+							</div>
+							<div class="col-md-4 mb-4">
+								<label for="validationCustom04">State</label>
+								<input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
+								<div class="invalid-feedback">
+									Please provide a valid state.
+								</div>
+							</div>
+							<div class="col-md-4 mb-4">
+								<label for="validationCustom05">Zip</label>
+								<input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
+								<div class="invalid-feedback">
+									Please provide a valid zip.
+								</div>
+							</div>
+							<div class="col-md-6 mb-6">
+								<label for="validationCustom04">Moving From</label>
+								<input type="text" class="form-control" id="validationCustom04" placeholder="Moving From" required>
+								<div class="invalid-feedback">
+									Please provide a valid state.
+								</div>
+							</div>
+							<div class="col-md-6 mb-6">
+								<label for="validationCustom04">Moving To</label>
+								<input type="text" class="form-control" id="validationCustom04" placeholder="Moving To" required>
+								<div class="invalid-feedback">
+									Please provide a valid state.
+								</div>
+							</div>
+						</div>
+						<button class="btn btn-primary" type="submit">Submit form</button>
+					</form>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
